@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">VANESA</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="jp.jpg" alt="">
+            </div>
+            <h1>INGRID VANESA ROJAS PAZ</h1>
+            <h2>Ingeniera de software</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mi</h2>
+            <p>Hola, Soy<span> INGRID VANESA ROJAS PAZ</span> Me motiva mucho desarrollar mis habilidades y crecer profesionalmente. 
+            Tengo confianza en mí capacidad para crear soluciones tecnológicas, diseñar app y sistematizar procesos.</p>
+
+            <div class="fila">
+                <!-- DATOS PERSONALES -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            21-12-2004
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            3182263221
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            venesitarojas070@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Calle 8 numero 15-34 ,Ipiales , Colombia
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- INTERESES -->
+                <DIV class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>ESTUDIO</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>CICLISMO</span>
+                        </div>
+                    </div>
+                </DIV>
+            </div>
+            <button>
+                <!--<i class="fa-solid fa-download"></i>-->
+                Descargar HV  <iframe src="#" width="50px" height="20px"></iframe>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- SECCION HABILIDADES -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccioon">
+            <h2>HABILIDADES</h2>
+            <div class="fila">
+                <!-- HABILIDADES TECNICAS -->
+                <div class="col">
+                    <h3>Habilidades tecnicas</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML y CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>EXCEL</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- HABILIDADES PROFESIONALES -->
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>76%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Gerencia de proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Bachiller</h4>
+                        <span class="casa">Alfonso Lopez</span>
+                        <span class="fecha">2020</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Eficacia</h4>
+                        <span class="casa">Universidad de Nariño</span>
+                        <span class="fecha">2020</span>
+                        <p>Ingles</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Profesional</h4>
+                        <span class="casa">Corporación universitaria Iberoamericana</span>
+                        <span class="fecha">2023</span>
+                        <p>Ingeniero de Software</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Profesional</h4>
+                        <span class="casa">Universidad de Nariño</span>
+                        <span class="fecha">2023</span>
+                        <p>Administradora de empresas</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Diplomado</h4>
+                        <span class="casa">Sena</span>
+                        <span class="fecha">2019</span>
+                        <p>Administracion de proyectos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <!--<h4>Operador Biarticulado</h4>
+                        <span class="casa">Bogotá Móvil</span>
+                        <span class="fecha">Junio 2019 - Actualidad</span>-->
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <!--<h4>Operador LV</h4>
+                        <span class="casa">Auto Fusa s.a</span>
+                        <span class="fecha">Septiembre 2018 - Mayo 2019</span>-->
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <!--<h4>Operador NPR</h4>
+                        <span class="casa">Nueva Cooperativa de Buses Azules</span>
+                        <span class="fecha">Enero 2015 - Julio 2018</span>-->
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <!--<h4>Operador NPR</h4>
+                        <span class="casa">Expreso del País</span>
+                        <span class="fecha">Marzo 2010 - Enero 2015</span>-->
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Numero telefonico">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <!--<img src="ubicacion.png" alt="">-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.9538214734557!2d-74.16964265049646!3d4.
+                    602293043770079!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9ef6f6a2e4fb%3A0xeec2a5d37dbafe1!2sCl.
+                    %2056d%20Sur%20%2373-4%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1672165523111!5m2!1ses-419!2sco" width="100%" 
+                    height="350px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Cel: 3182263221
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: venesitarojas070@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
